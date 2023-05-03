@@ -58,7 +58,7 @@ ba2 = bytearray(3)
 print(ba, "type is : ", type(ba))
 print(ba2, "type is : ", type(ba2), '\n')
 
-#accepts byte
+#accepts by
 mv = memoryview(ba)
 mv2 = memoryview(ba2)
 
