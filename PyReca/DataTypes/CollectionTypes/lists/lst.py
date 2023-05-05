@@ -63,7 +63,7 @@ list_3.remove("A")
 print(list_3)
 
 
-#loop on lists
+#loop on lists-for loops
 thislist = ["apple", "banana", "cherry"]
 for x in thislist:
   print(x)
@@ -72,3 +72,14 @@ for x in thislist:
 thislist = ["apple", "banana", "cherry"]
 for i in range(len(thislist)):
   print(thislist[i], "the index is:", i)
+
+
+#loop on lists-while loops
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+
+
+thislist_ = ["d", "sd", "dwa"]
+[print(x) for x in thislist_]
