@@ -83,3 +83,9 @@ while i < len(thislist):
 
 thislist_ = ["d", "sd", "dwa"]
 [print(x) for x in thislist_]
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+new_fruits = [x for x in fruits if "a" in x]
+
+print(new_fruits)
