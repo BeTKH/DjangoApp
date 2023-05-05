@@ -86,6 +86,13 @@ thislist_ = ["d", "sd", "dwa"]
 
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
+
+# list comprehension with condition  [expression for item in iterable if condition == True]
 new_fruits = [x for x in fruits if "a" in x]
 
 print(new_fruits)
+
+
+
+newlist_ap = [x for x in fruits if x != "apple"]
+print(newlist_ap)
