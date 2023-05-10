@@ -93,6 +93,5 @@ new_fruits = [x for x in fruits if "a" in x]
 print(new_fruits)
 
 
-
 newlist_ap = [x for x in fruits if x != "apple"]
 print(newlist_ap)
