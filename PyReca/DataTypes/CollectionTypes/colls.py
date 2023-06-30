@@ -1,1 +1,0 @@
-#collections are list, tuple, set and dict
